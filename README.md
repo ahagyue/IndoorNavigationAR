@@ -67,7 +67,7 @@ Indoor Navigation과 outdoor navigation의 차이는 1.과 2.에서 나타납니
 
 # Code Review - ARNavigationView
 
-<img src="./img/structure.svg />
+<img src="./structure.svg" />
 
 ### 0. 개요
 
