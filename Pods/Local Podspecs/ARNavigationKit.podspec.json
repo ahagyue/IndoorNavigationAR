@@ -1,0 +1,25 @@
+{
+  "name": "ARNavigationKit",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "summary": "ARNavigationKit provides robust indoor navigation.",
+  "requires_arc": true,
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ferdinand Losch": "ferdinandloesch@me.com"
+  },
+  "homepage": "https://github.com/ferdinandl007/ARNavigationKit",
+  "source": {
+    "git": "https://github.com/ferdinandl007/ARNavigationKit.git",
+    "tag": "1.0.0"
+  },
+  "frameworks": "ARKit",
+  "source_files": "ARNavigationKit/**/*.{swift}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

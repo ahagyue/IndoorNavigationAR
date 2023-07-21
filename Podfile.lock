@@ -1,0 +1,16 @@
+PODS:
+  - ARNavigationKit (1.0.0)
+
+DEPENDENCIES:
+  - ARNavigationKit (from `/Users/jmtguri/Desktop/XR/slam/ARNavigationKit`)
+
+EXTERNAL SOURCES:
+  ARNavigationKit:
+    :path: "/Users/jmtguri/Desktop/XR/slam/ARNavigationKit"
+
+SPEC CHECKSUMS:
+  ARNavigationKit: 6730ef8bf503fee2fe54406636c76c9b8afc5a69
+
+PODFILE CHECKSUM: d4b80d2f06cd2f82670444ed95f02f86255f8b25
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ARNavigationKit in Pods, no dependencies
+Pods-IndoorNavigation in Pods, depends on:
+ARNavigationKit in Pods (explicit)
+IndoorNavigation in IndoorNavigation, depends on:
+Pods-IndoorNavigation in Pods (implicit dependency via file 'Pods_IndoorNavigation.framework' in build phase 'Link Binary')
+ARNavigationKit in Pods (implicit dependency via options '-framework ARNavigationKit' in build setting 'OTHER_LDFLAGS')

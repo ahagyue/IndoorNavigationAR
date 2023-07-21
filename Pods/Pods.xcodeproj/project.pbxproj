@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010DC7E930D9720B4DD0E7BDBF32D389 /* ARNavigationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CB40ACDD92DB853527747C665510A /* ARNavigationKit-dummy.m */; };
+		14776A23D8CA249C3CD0BED2EA3B6213 /* Mapfilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152BF6968AD3F7ADD8F598A75B8DFB77 /* Mapfilters.swift */; };
+		1C03448AD3935DE31A9AED7A68D5758A /* AStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF1DC0991853B794B3DE0265C960C48 /* AStar.swift */; };
+		28373F1553754D279752D1B8FF532580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */; };
+		2A0AD0435949806934F1EC688985A3CA /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FC2F34EED0E5B33EA81E1278514381 /* ARKit.framework */; };
+		3831284904B294C484F06361FDF5D326 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C638EDD6B2184B6BE909710C15FC87 /* Heap.swift */; };
+		41EC389DA779C78B8DB87FCCFC52C486 /* ARNavigationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1C506F50F3A43687F70DB1A993DA7D /* ARNavigationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B9E6E152D52689633BD09DE26ED918 /* SCNVector4+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CEB7E3462B09B069834835BDC0BDD /* SCNVector4+Extensions.swift */; };
+		562F7A6A7965C535E893FD46D6DFD191 /* Voxel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73E3B87DB37B4A9A498CEB6889E456 /* Voxel.swift */; };
+		581CB76753BC3306CBF3D07D780FBFCA /* MMSlidingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E01399C963568635079BB478432F4E /* MMSlidingButton.swift */; };
+		628374DD61D06288B0C502C8243DB2C2 /* MapVisualisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AD6BC1E6D4C54BFABBC8A3C29FBCE9 /* MapVisualisation.swift */; };
+		73F0975501023EA90CE29198B528DC65 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C31E49FB6DAF8E9DAA616B5227131E /* SCNVector3+Extensions.swift */; };
+		8E53496E3FAB2BB6A192B33A7407E2F2 /* SKLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81133D13373DF6BE6B11276AFB9B4D /* SKLine.swift */; };
+		A575D08E8843C420CAEB229F72A694B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */; };
+		BA14A5C589ABAE519C48A28B216347AA /* VoxelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1477151203C30247614028420F695E9 /* VoxelMap.swift */; };
+		E77A858816A77E97B98C924AFD08CD85 /* Pods-IndoorNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 925F8CB6D56DA471EECBFECA51EE56AB /* Pods-IndoorNavigation-dummy.m */; };
+		F21742C5EFE1B4143899935708583EE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7A0D1EE0898A76F6F4366192ABDC5 /* Extensions.swift */; };
+		F38771E7F53477F0963FEE1F3E113066 /* SCN+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A44FF49ADD157CBA7ABF76A781033B /* SCN+Codable.swift */; };
+		FD9596748779B612020A51EA421C553D /* Pods-IndoorNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3676AF5E3BA7CD6F970AD406BAD12E /* Pods-IndoorNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F2B60AD46A3685D824D9E440F229C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536BA9761A18EA4161366BE6D34BA5DA;
+			remoteInfo = ARNavigationKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F90A795628D56E76C431634937728B /* ARNavigationKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARNavigationKit.debug.xcconfig; sourceTree = "<group>"; };
+		05E01399C963568635079BB478432F4E /* MMSlidingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMSlidingButton.swift; sourceTree = "<group>"; };
+		0A81133D13373DF6BE6B11276AFB9B4D /* SKLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKLine.swift; sourceTree = "<group>"; };
+		152BF6968AD3F7ADD8F598A75B8DFB77 /* Mapfilters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapfilters.swift; path = ARNavigationKit/Mapfilters.swift; sourceTree = "<group>"; };
+		17FC2F34EED0E5B33EA81E1278514381 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ARKit.framework; sourceTree = DEVELOPER_DIR; };
+		181CEB7E3462B09B069834835BDC0BDD /* SCNVector4+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SCNVector4+Extensions.swift"; sourceTree = "<group>"; };
+		2AA7A0D1EE0898A76F6F4366192ABDC5 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ARNavigationKit/Extensions.swift; sourceTree = "<group>"; };
+		3BD956CEBCA44B482D772C87B54C9FBF /* Pods-IndoorNavigation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IndoorNavigation"; path = Pods_IndoorNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406120B68CF854FEA16AA962D58900F8 /* Pods-IndoorNavigation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IndoorNavigation-frameworks.sh"; sourceTree = "<group>"; };
+		44C6BA2C45222A5EBABCE8548605DB53 /* Pods-IndoorNavigation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IndoorNavigation-Info.plist"; sourceTree = "<group>"; };
+		466B75BA118CD47C40669F58B1182642 /* ARNavigationKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARNavigationKit.release.xcconfig; sourceTree = "<group>"; };
+		51AD6BC1E6D4C54BFABBC8A3C29FBCE9 /* MapVisualisation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapVisualisation.swift; path = ARNavigationKit/MapVisualisation.swift; sourceTree = "<group>"; };
+		645FDAACDCF6862FBC84967133597430 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6CA2B69D7F8FEDEEC518874AF15DBBFD /* ARNavigationKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ARNavigationKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EDF34F48F5CB123DC81A5A2E23EFA8F /* Pods-IndoorNavigation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IndoorNavigation-acknowledgements.plist"; sourceTree = "<group>"; };
+		7212570A27038BE78118F9F2AC3DB717 /* Pods-IndoorNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IndoorNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		76A44FF49ADD157CBA7ABF76A781033B /* SCN+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SCN+Codable.swift"; sourceTree = "<group>"; };
+		7823E0071D302F75A1F6135710F72886 /* Pods-IndoorNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IndoorNavigation.modulemap"; sourceTree = "<group>"; };
+		79C31E49FB6DAF8E9DAA616B5227131E /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		84C638EDD6B2184B6BE909710C15FC87 /* Heap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Heap.swift; path = ARNavigationKit/Heap.swift; sourceTree = "<group>"; };
+		8E3676AF5E3BA7CD6F970AD406BAD12E /* Pods-IndoorNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IndoorNavigation-umbrella.h"; sourceTree = "<group>"; };
+		925F8CB6D56DA471EECBFECA51EE56AB /* Pods-IndoorNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IndoorNavigation-dummy.m"; sourceTree = "<group>"; };
+		95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9A3CB40ACDD92DB853527747C665510A /* ARNavigationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARNavigationKit-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2CFD94D78E154BE893CC3337D769999 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BFF1DC0991853B794B3DE0265C960C48 /* AStar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AStar.swift; path = ARNavigationKit/AStar.swift; sourceTree = "<group>"; };
+		C1477151203C30247614028420F695E9 /* VoxelMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoxelMap.swift; path = ARNavigationKit/VoxelMap.swift; sourceTree = "<group>"; };
+		CCCD27BB69E12D43F8840362DDC9AA58 /* ARNavigationKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARNavigationKit-Info.plist"; sourceTree = "<group>"; };
+		CD4DF91EE07040467842EC13A01FBCFE /* Pods-IndoorNavigation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IndoorNavigation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5DF3CB677A112C29A430AD9C76C82EF /* ARNavigationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARNavigationKit.modulemap; sourceTree = "<group>"; };
+		DC8457A9D0948A5EB3100B10D4D4B086 /* ARNavigationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARNavigationKit-prefix.pch"; sourceTree = "<group>"; };
+		E1DDE9AEA9EA91533D4F9C5E62C20AB0 /* ARNavigationKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARNavigationKit; path = ARNavigationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB73E3B87DB37B4A9A498CEB6889E456 /* Voxel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Voxel.swift; path = ARNavigationKit/Voxel.swift; sourceTree = "<group>"; };
+		F7CD325DD134064C0408157DAD478315 /* Pods-IndoorNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IndoorNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		FA1C506F50F3A43687F70DB1A993DA7D /* ARNavigationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARNavigationKit-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		625C770ABC77658FD980DC3E0B3D8348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0AD0435949806934F1EC688985A3CA /* ARKit.framework in Frameworks */,
+				A575D08E8843C420CAEB229F72A694B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EB70E6628D03F43EDECD14C4E36B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28373F1553754D279752D1B8FF532580 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082BDD5A028552EC7D37A3272D083872 /* ARNavigationKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFF1DC0991853B794B3DE0265C960C48 /* AStar.swift */,
+				2AA7A0D1EE0898A76F6F4366192ABDC5 /* Extensions.swift */,
+				84C638EDD6B2184B6BE909710C15FC87 /* Heap.swift */,
+				152BF6968AD3F7ADD8F598A75B8DFB77 /* Mapfilters.swift */,
+				51AD6BC1E6D4C54BFABBC8A3C29FBCE9 /* MapVisualisation.swift */,
+				EB73E3B87DB37B4A9A498CEB6889E456 /* Voxel.swift */,
+				C1477151203C30247614028420F695E9 /* VoxelMap.swift */,
+				2BB6B906C58D8442DE6C67A671652200 /* Pod */,
+				23FC992AD153AB808198955ADA556379 /* Support Files */,
+				270B684B0DDCE50D9286A7D33E040C10 /* Utils */,
+			);
+			name = ARNavigationKit;
+			path = /Users/jmtguri/Desktop/XR/slam/ARNavigationKit;
+			sourceTree = "<absolute>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36D455C00CDB9BEBA994C0692E387BF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FC9B4BC976E3787F969C9306FFBE394 /* Pods-IndoorNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				7823E0071D302F75A1F6135710F72886 /* Pods-IndoorNavigation.modulemap */,
+				CD4DF91EE07040467842EC13A01FBCFE /* Pods-IndoorNavigation-acknowledgements.markdown */,
+				6EDF34F48F5CB123DC81A5A2E23EFA8F /* Pods-IndoorNavigation-acknowledgements.plist */,
+				925F8CB6D56DA471EECBFECA51EE56AB /* Pods-IndoorNavigation-dummy.m */,
+				406120B68CF854FEA16AA962D58900F8 /* Pods-IndoorNavigation-frameworks.sh */,
+				44C6BA2C45222A5EBABCE8548605DB53 /* Pods-IndoorNavigation-Info.plist */,
+				8E3676AF5E3BA7CD6F970AD406BAD12E /* Pods-IndoorNavigation-umbrella.h */,
+				7212570A27038BE78118F9F2AC3DB717 /* Pods-IndoorNavigation.debug.xcconfig */,
+				F7CD325DD134064C0408157DAD478315 /* Pods-IndoorNavigation.release.xcconfig */,
+			);
+			name = "Pods-IndoorNavigation";
+			path = "Target Support Files/Pods-IndoorNavigation";
+			sourceTree = "<group>";
+		};
+		21BA3E933FF9FE3DBEB4F4EB83EC8D8C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC9B4BC976E3787F969C9306FFBE394 /* Pods-IndoorNavigation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		23FC992AD153AB808198955ADA556379 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DF3CB677A112C29A430AD9C76C82EF /* ARNavigationKit.modulemap */,
+				9A3CB40ACDD92DB853527747C665510A /* ARNavigationKit-dummy.m */,
+				CCCD27BB69E12D43F8840362DDC9AA58 /* ARNavigationKit-Info.plist */,
+				DC8457A9D0948A5EB3100B10D4D4B086 /* ARNavigationKit-prefix.pch */,
+				FA1C506F50F3A43687F70DB1A993DA7D /* ARNavigationKit-umbrella.h */,
+				00F90A795628D56E76C431634937728B /* ARNavigationKit.debug.xcconfig */,
+				466B75BA118CD47C40669F58B1182642 /* ARNavigationKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../IndoorNavigation/Pods/Target Support Files/ARNavigationKit";
+			sourceTree = "<group>";
+		};
+		270B684B0DDCE50D9286A7D33E040C10 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				05E01399C963568635079BB478432F4E /* MMSlidingButton.swift */,
+				76A44FF49ADD157CBA7ABF76A781033B /* SCN+Codable.swift */,
+				79C31E49FB6DAF8E9DAA616B5227131E /* SCNVector3+Extensions.swift */,
+				181CEB7E3462B09B069834835BDC0BDD /* SCNVector4+Extensions.swift */,
+				0A81133D13373DF6BE6B11276AFB9B4D /* SKLine.swift */,
+			);
+			name = Utils;
+			path = ARNavigationKit/Utils;
+			sourceTree = "<group>";
+		};
+		2BB6B906C58D8442DE6C67A671652200 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2B69D7F8FEDEEC518874AF15DBBFD /* ARNavigationKit.podspec */,
+				A2CFD94D78E154BE893CC3337D769999 /* LICENSE */,
+				645FDAACDCF6862FBC84967133597430 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A208ACC00C7E6C7C7CDC9E67118FD832 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				082BDD5A028552EC7D37A3272D083872 /* ARNavigationKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB34D211DD939A51D89ADA743EFBCEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DDE9AEA9EA91533D4F9C5E62C20AB0 /* ARNavigationKit */,
+				3BD956CEBCA44B482D772C87B54C9FBF /* Pods-IndoorNavigation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A208ACC00C7E6C7C7CDC9E67118FD832 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				AB34D211DD939A51D89ADA743EFBCEDA /* Products */,
+				21BA3E933FF9FE3DBEB4F4EB83EC8D8C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F36D455C00CDB9BEBA994C0692E387BF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17FC2F34EED0E5B33EA81E1278514381 /* ARKit.framework */,
+				95480DF5F40CC7F20D144B4107B054A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92BF87FF4C5D726A96C2DECA480B3DE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EC389DA779C78B8DB87FCCFC52C486 /* ARNavigationKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C10B17A7335879D8B347DE71A1D9F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9596748779B612020A51EA421C553D /* Pods-IndoorNavigation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15B9D7234D1DC239CB547835E4647733 /* Pods-IndoorNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA54CCE60880D887708E3DCEE8936E2 /* Build configuration list for PBXNativeTarget "Pods-IndoorNavigation" */;
+			buildPhases = (
+				E5C10B17A7335879D8B347DE71A1D9F1 /* Headers */,
+				4006906AD0C3678423B9DA39B73802EC /* Sources */,
+				B1EB70E6628D03F43EDECD14C4E36B08 /* Frameworks */,
+				0AFFCE0A93006A57F5BEAF255896591B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7553541214B58AB2A4AAABD6B91552B /* PBXTargetDependency */,
+			);
+			name = "Pods-IndoorNavigation";
+			productName = Pods_IndoorNavigation;
+			productReference = 3BD956CEBCA44B482D772C87B54C9FBF /* Pods-IndoorNavigation */;
+			productType = "com.apple.product-type.framework";
+		};
+		536BA9761A18EA4161366BE6D34BA5DA /* ARNavigationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10141B5C3CFA15C65521F4341E67891C /* Build configuration list for PBXNativeTarget "ARNavigationKit" */;
+			buildPhases = (
+				92BF87FF4C5D726A96C2DECA480B3DE0 /* Headers */,
+				485196219BF4ABEC6662500D05BE9E1D /* Sources */,
+				625C770ABC77658FD980DC3E0B3D8348 /* Frameworks */,
+				6FA381CFC715A49A70B8B04FFEDCB4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARNavigationKit;
+			productName = ARNavigationKit;
+			productReference = E1DDE9AEA9EA91533D4F9C5E62C20AB0 /* ARNavigationKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AB34D211DD939A51D89ADA743EFBCEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536BA9761A18EA4161366BE6D34BA5DA /* ARNavigationKit */,
+				15B9D7234D1DC239CB547835E4647733 /* Pods-IndoorNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AFFCE0A93006A57F5BEAF255896591B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA381CFC715A49A70B8B04FFEDCB4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4006906AD0C3678423B9DA39B73802EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77A858816A77E97B98C924AFD08CD85 /* Pods-IndoorNavigation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485196219BF4ABEC6662500D05BE9E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010DC7E930D9720B4DD0E7BDBF32D389 /* ARNavigationKit-dummy.m in Sources */,
+				1C03448AD3935DE31A9AED7A68D5758A /* AStar.swift in Sources */,
+				F21742C5EFE1B4143899935708583EE4 /* Extensions.swift in Sources */,
+				3831284904B294C484F06361FDF5D326 /* Heap.swift in Sources */,
+				14776A23D8CA249C3CD0BED2EA3B6213 /* Mapfilters.swift in Sources */,
+				628374DD61D06288B0C502C8243DB2C2 /* MapVisualisation.swift in Sources */,
+				581CB76753BC3306CBF3D07D780FBFCA /* MMSlidingButton.swift in Sources */,
+				F38771E7F53477F0963FEE1F3E113066 /* SCN+Codable.swift in Sources */,
+				73F0975501023EA90CE29198B528DC65 /* SCNVector3+Extensions.swift in Sources */,
+				52B9E6E152D52689633BD09DE26ED918 /* SCNVector4+Extensions.swift in Sources */,
+				8E53496E3FAB2BB6A192B33A7407E2F2 /* SKLine.swift in Sources */,
+				562F7A6A7965C535E893FD46D6DFD191 /* Voxel.swift in Sources */,
+				BA14A5C589ABAE519C48A28B216347AA /* VoxelMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7553541214B58AB2A4AAABD6B91552B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARNavigationKit;
+			target = 536BA9761A18EA4161366BE6D34BA5DA /* ARNavigationKit */;
+			targetProxy = 9F2B60AD46A3685D824D9E440F229C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39F4E75573CA5E7BFBD003230CC4BF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F90A795628D56E76C431634937728B /* ARNavigationKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARNavigationKit/ARNavigationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARNavigationKit/ARNavigationKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARNavigationKit/ARNavigationKit.modulemap";
+				PRODUCT_MODULE_NAME = ARNavigationKit;
+				PRODUCT_NAME = ARNavigationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56699EB54BE6FC6EAC94953126C02090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466B75BA118CD47C40669F58B1182642 /* ARNavigationKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARNavigationKit/ARNavigationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARNavigationKit/ARNavigationKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARNavigationKit/ARNavigationKit.modulemap";
+				PRODUCT_MODULE_NAME = ARNavigationKit;
+				PRODUCT_NAME = ARNavigationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F62F73986D2C701DEEBC479787CF0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CD325DD134064C0408157DAD478315 /* Pods-IndoorNavigation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E94328A104091DE6888BDDA21B2CEAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7212570A27038BE78118F9F2AC3DB717 /* Pods-IndoorNavigation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10141B5C3CFA15C65521F4341E67891C /* Build configuration list for PBXNativeTarget "ARNavigationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F4E75573CA5E7BFBD003230CC4BF0F /* Debug */,
+				56699EB54BE6FC6EAC94953126C02090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA54CCE60880D887708E3DCEE8936E2 /* Build configuration list for PBXNativeTarget "Pods-IndoorNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94328A104091DE6888BDDA21B2CEAC4 /* Debug */,
+				7F62F73986D2C701DEEBC479787CF0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
